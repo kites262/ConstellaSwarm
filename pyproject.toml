@@ -1,0 +1,28 @@
+[project]
+name = "constellaswarm"
+version = "0.1.0"
+description = "UAV Boids Simulation"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "rerun-sdk",
+    "loguru",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "UP", # pyupgrade
+]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

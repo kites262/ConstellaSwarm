@@ -1,0 +1,12 @@
+src/constellaswarm.egg-info/
+
+playground/
+
+__pycache__/
+*.pyc
+
+.DS_Store
+
+.vscode/
+
+.env
